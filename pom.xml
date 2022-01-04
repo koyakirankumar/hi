@@ -34,7 +34,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.ravi.cal.RaviCalculator</mainClass>
+            <mainClass>com.ravi.cal.RaviCalculator.Calculator</mainClass>
           </manifest>
         </archive>
       </configuration>
