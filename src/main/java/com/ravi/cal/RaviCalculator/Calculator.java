@@ -1,42 +1,38 @@
-package com.ravi.cal.RaviCalculator;
+package com.kiran.KiranCalculator;
 
-import java.util.Scanner;
+public class Calculator {
 
-public class Calculator  {
+	public long first;
+	public long second;
 	
-	private long first;
-	private long second;
+	public Calculator(long first, long second){
+		this.first = first;
+		this.second=second;
+	}
 	
 	public long getFirst() {
 		return first;
-	}
-
-	public void setFirst(long first) {
-		this.first = first;
 	}
 
 	public long getSecond() {
 		return second;
 	}
 
-	public void setSecond(long second) {
-		this.second = second;
-	}
-
-	public long addFucn(long first, long second) {
+	public long addFucn(long first, long second){
 		
 		return first+second;
 	}
 	
-	public long subFucn(long first, long second) {
+	public long subFucn(long first, long second){
 		
 		return second-first;
 	}
 	
-	public long mulFucn(long first, long second) {
+	public long mulFucn(long first, long second){
 		
 		return first*second;
 	}
+	
 	
 	public static void main(String[] args) {
 
@@ -48,6 +44,6 @@ public class Calculator  {
 		String output = String.format("\n*** Your Results ***\n\nFirst: %d\nSecond: %d\n\nSum : %d\nDifference : %d\nProduct : %d\n\n", cal.first, cal.second, cal.addFucn(first, second), cal.subFucn(first, second), cal.mulFucn(first, second));
 		System.out.println(output);
 	}
-	 
-
+	
 }
+
