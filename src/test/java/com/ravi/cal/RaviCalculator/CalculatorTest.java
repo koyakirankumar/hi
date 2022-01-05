@@ -1,6 +1,6 @@
 package com.kiran.cal.Calculator;
 
-import com.kiran.kiranCalculator.Calculator;
+import com.kiran.KiranCalculator.Calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
